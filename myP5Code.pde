@@ -19,10 +19,15 @@ void draw(){
   ellipse(x, y, 200, 100); // face
   ellipse(x - 50, y - 50, 40, 40); // left eye socket
   ellipse(x + 50, y - 50, 40, 40); // right eye socket
-
+  fill(255,0,0);
+  ellipse(x, y, 50, 50); //mouth
   fill(255, 255, 255); // for the whites of the eyes!
   ellipse(x - 50, y - 50, 30, 30); // left eyeball
   ellipse(x + 50, y - 50, 30, 30); // right eyeball
+  fill(0,0,0)
+  ellipse(x + 50, y - 50, 20, 20); //eyeball
+  ellipse(x - 50, y - 50, 20, 20); //eyeball
+
   
 
 }
